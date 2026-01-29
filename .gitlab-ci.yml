@@ -1,6 +1,5 @@
-image: node:18
-
 pages:
+  image: node:18
   stage: deploy
   script:
     - npm install
